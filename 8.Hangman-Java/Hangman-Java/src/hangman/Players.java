@@ -11,18 +11,14 @@ public class Players implements Serializable{
 		this.name = name;
 		this.scores = scores;
 	}
-	
-	
-	
-	
+
+	//return player name
 	public String getName() {
 		return name;
 	}
 
+	//return players score:
 	public int getScores() {
 		return scores;
 	}
-
-	
-
 }
